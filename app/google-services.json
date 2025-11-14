@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "768805543525",
+    "project_id": "parkly-app-63e5e",
+    "storage_bucket": "parkly-app-63e5e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768805543525:android:33394f9d66e0366a8ef08c",
+        "android_client_info": {
+          "package_name": "com.example.parklyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLlaLC_a0Szx-fX5q09rIJd-EsA8lhxG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

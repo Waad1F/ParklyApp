@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">باركلي</string>
+        <string name="logout">تسجيل خروج</string>
+        <string name="settings">الإعدادات</string>
+        <string name="language">اللغة</string>
+        <string name="change_username">تغيير اسم المستخدم</string>
+        <string name="change_password">تغيير كلمة المرور</string>
+        <string name="driver_name">اسم السائق</string>
+        <string name="about_title">من نحن</string>
+        <string name="about_description">
+    نحن فريق Parkly، نلتزم بحل مشكلة الازدحام في مواقف الجامعات وأماكن العمل من خلال تطبيق ذكي وسهل الاستخدام. يوفر تطبيقنا معلومات فورية عن توفر المواقف وخيارات الحجز المسبق لتوفير الوقت وتقليل العناء. بدعم من اللغتين العربية والإنجليزية، تقدم Parkly تجربة سلسة ومجانية تهدف إلى تحسين التنقل اليومي والتوسع إلى مواقع جديدة.
+</string>
+        <string name="about_footer">جميع الحقوق محفوظة © Parkly App 2025</string>
+        <string name="time_label">الوقت:</string>
+        <string name="choose_time">اختر الوقت</string>
+        <string name="reserve_parking">تأكيد الحجز</string>
+        <string name="toast_missing_components">خطأ: لم يتم العثور على بعض المكونات في XML</string>
+        <string name="toast_slot_selected">تم تحديد الموقف</string>
+        <string name="selected_time">الوقت المحدد: %1$s</string>
+        <string name="toast_select_slot">يرجى تحديد موقف أولًا</string>
+        <string name="toast_select_time">يرجى اختيار وقت الحجز</string>
+        <string name="toast_booking_success">تم تأكيد الحجز في الساعة: %1$s</string>
+        <string name="change_username_title">تغيير اسم المستخدم</string>
+        <string name="change_username_hint">أدخل اسم المستخدم الجديد</string>
+        <string name="save">حفظ</string>
+        <string name="cancel">إلغاء</string>
+        <string name="change_password_title">تغيير كلمة المرور</string>
+        <string name="old_password">كلمة المرور الحالية</string>
+        <string name="new_password">كلمة المرور الجديدة</string>
+        <string name="confirm_password">تأكيد كلمة المرور</string>
+        <string name="update">تحديث</string>
+        <string name="password_updated">تم تحديث كلمة المرور (واجهة فقط)</string>
+        <string name="password_mismatch">كلمتا المرور غير متطابقتين</string>
+        <string name="search_here">ابحث هنا...</string>
+        <string name="map_no_result">لم يتم العثور على الموقع داخل نطاق A4</string>
+</resources>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:id="@+id/parkingGrid"
+    android:layout_width="386dp"
+    android:layout_height="437dp"
+    android:layout_marginBottom="24dp"
+    android:background="@color/white"
+    android:clickable="false"
+    android:clipToPadding="false"
+    android:columnCount="4"
+    android:contextClickable="true"
+    android:elevation="2dp"
+    android:padding="16dp"
+    android:rowCount="4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/slot1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <View
+        android:layout_width="352dp"
+        android:layout_height="6dp"
+        android:layout_columnSpan="4"
+        android:layout_marginVertical="4dp"
+        android:background="#00BCD4" />
+
+    <ImageView
+        android:id="@+id/slot5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <View
+        android:layout_width="358dp"
+        android:layout_height="15dp"
+        android:layout_columnSpan="4"
+        android:layout_marginVertical="4dp"
+        android:background="#F69475" />
+
+    <ImageView
+        android:id="@+id/slot9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slot11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="unavailable" />
+
+    <View
+        android:layout_width="352dp"
+        android:layout_height="6dp"
+        android:layout_columnSpan="4"
+        android:layout_marginVertical="4dp"
+        android:background="#00BCD4" />
+
+
+    <ImageView
+        android:id="@+id/slo13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo14"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo15"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo16"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+    <ImageView
+        android:id="@+id/slo17"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo18"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo19"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo20"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <View
+        android:layout_width="352dp"
+        android:layout_height="6dp"
+        android:layout_columnSpan="4"
+        android:layout_marginVertical="4dp"
+        android:background="#00BCD4" />
+
+    <ImageView
+        android:id="@+id/slo21"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo22"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo23"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo24"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <View
+        android:layout_width="358dp"
+        android:layout_height="15dp"
+        android:layout_columnSpan="4"
+        android:layout_marginVertical="4dp"
+        android:background="#F69475" />
+
+    <ImageView
+        android:id="@+id/slo25"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo26"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo27"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo28"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="270"
+        android:src="@drawable/ic_car"
+        android:tag="unavailable" />
+
+    <View
+        android:layout_width="352dp"
+        android:layout_height="6dp"
+        android:layout_columnSpan="4"
+        android:layout_marginVertical="4dp"
+        android:background="#00BCD4" />
+
+    <ImageView
+        android:id="@+id/slo29"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo30"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo31"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+    <ImageView
+        android:id="@+id/slo32"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:rotation="90"
+        android:src="@drawable/ic_car"
+        android:tag="available" />
+
+</GridLayout>

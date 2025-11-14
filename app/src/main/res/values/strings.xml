@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Parkly App</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="change_username">Change Username</string>
+    <string name="change_password">Change Password</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="about_title">About Us</string>
+    <string name="about_description">
+    We are the Parkly team, committed to solving parking congestion in universities and workplaces through a smart and user-friendly app. Our platform provides real-time parking availability and pre-booking options to save time and reduce hassle. With support for Arabic and English, Parkly offers a free and seamless experience, aiming to enhance daily commuting and expand to new locations.
+</string>
+    <string name="about_footer">All rights reserved © Parkly App 2025</string>
+    <string name="time_label">Time:</string>
+    <string name="choose_time">Choose The Time</string>
+    <string name="reserve_parking">Reserve Parking</string>
+    <string name="toast_missing_components">Error: Some components not found in XML</string>
+    <string name="toast_slot_selected">Slot selected</string>
+    <string name="selected_time">Selected Time: %1$s</string>
+    <string name="toast_select_slot">Please select a parking slot first</string>
+    <string name="toast_select_time">Please select a reservation time</string>
+    <string name="toast_booking_success">Reservation confirmed at: %1$s</string>
+    <string name="change_username_title">Change Username</string>
+    <string name="change_username_hint">Enter new username</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update">Update</string>
+    <string name="password_updated">Password updated (UI only)</string>
+    <string name="password_mismatch">Passwords do not match</string>
+    <string name="search_here">Search here...</string>
+    <string name="map_no_result">Location not found within A4 area</string>
+    <string name="unavailable">unavailable</string>
+    <string name="update_parking_status">update parking status</string>
+
+</resources>
